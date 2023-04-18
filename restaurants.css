@@ -41,6 +41,7 @@ main img{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     background-color: #f6f6f6;
     border-style: solid;
     border-color: #f6f6f6;
@@ -58,6 +59,9 @@ i {
     color: black;
     cursor: pointer;
     transition: all .2s ease-in-out;
+    font-size: 24px;
+    font-weight: 200;
+    padding-right: 10%;
   }
    
   i:hover {
@@ -116,8 +120,8 @@ h2{
 }
 
 .menu-card:hover .menu--selection{
-    width: 50%;
-    transition-duration: 2s;
+    width: 30%;
+    transition: all 2s;
 
 }
 
@@ -125,7 +129,6 @@ h2{
     font-size: 30px;
     font-weight: 700;
     background-color: #99E2D0;
-    color: white;
     min-height: 100%;
     right: 0;
     border-radius: 0px 15px 15px 0px;
@@ -137,6 +140,10 @@ h2{
     color: white;
     height: 100%;
     overflow: hidden;
+    transition: all 2s;
+}
+.menu--selection i{
+    color: white;
 }
 
 .menu-text{
@@ -173,6 +180,50 @@ h2{
     align-items: center;
 }
 
+.entrées, .entrées-titre{
+    -webkit-animation: fadein 2s;
+}
+@-webkit-keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    70%{
+        opacity: 0.2;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.plats, .plats-titre{
+    -webkit-animation: fadein 4s;
+}
+@-webkit-keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    70%{
+        opacity: 0.2;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+.desserts, .desserts-titre{
+    -webkit-animation: fadein 6s;
+}
+@-webkit-keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    70%{
+        opacity: 0.2;
+    }
+    100% {
+        opacity:1;
+    }
+}
 
 h3{
     font-size: 16px;

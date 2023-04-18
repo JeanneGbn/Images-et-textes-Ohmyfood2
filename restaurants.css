@@ -232,3 +232,122 @@ footer li{
     padding-top: 2%;
 }
 
+
+/* Media Queries Dekstop */
+
+
+@media screen and (min-width: 992px) {
+    body{
+        max-width: 1440px;
+        width: 100%;
+    }
+    .logo{
+        left: 40%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+    .menu{
+        width: 80%;
+    }
+    .nom-restaurant{
+        height: 90px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        font-size: 20px;
+        width: 4%;
+    }
+    .nom-restaurant i{
+        padding: 0;
+        padding-left: 15px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+    footer ol{
+        display: flex;
+        font-size: 18px;
+    }
+    footer li{
+        padding-left: 10px;
+    }
+    .petit-logo{
+      margin-right: 20px;
+      margin-left: 20px;
+      padding-bottom: 10px;   
+    }
+ }
+ 
+ 
+ /* Media Queries Tablette */
+ 
+ 
+ @media screen and (min-width: 769px) {
+    body{
+        min-width: 769px;
+        max-width: 991px;
+    }
+    .img--spe{
+        height: 580px;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+    .menu{
+        width: 90%;
+    }
+    .nom-restaurant{
+        height: 90px;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    h2{
+        font-size: 20px;
+        width: 4%;
+    }
+    .nom-restaurant i{
+        padding: 0;
+        padding-left: 15px;
+    }
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+    footer ol{
+        display: flex;
+        font-size: 18px;
+    }
+    footer li{
+        padding-left: 10px;
+    }
+    .petit-logo{
+      margin-right: 20px;
+      margin-left: 20px;
+      padding-bottom: 10px;   
+    }
+ 
+ 
+ }
+ 
+

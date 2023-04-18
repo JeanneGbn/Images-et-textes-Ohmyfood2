@@ -275,3 +275,198 @@ footer li{
     padding-top: 2%;
 }
 
+
+/* Media Queries Desktop */
+
+
+@media screen and (min-width: 992px) {
+    body{
+        max-width: 1440px;
+        width: 100%;
+        margin: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo{
+        width: 220px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    h1{
+        font-size: 40px;
+        padding-top: 2%;
+    }
+    .description{
+        height: auto;
+    }
+    .fonctionnement h2{
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+    .fonctionnement_list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .fonctionnement_step-1, .fonctionnement_step-2, .fonctionnement_step-3{
+    position: absolute;
+    width: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 22px;
+    }
+    .fonctionnement_step-1{
+        top: 58%;
+        left: 7%;
+    }
+    .fonctionnement_1{
+        left: 6%;
+        top: 88%;
+        font-size: 20px;
+    }
+    .fonctionnement_step-2{
+        top: 58%;
+        left: 39%;
+    }
+    .fonctionnement_2{
+        left: 38%;
+        top: 88%;
+        font-size: 20px;
+    }
+    .fonctionnement_step-3{
+        top: 58%;
+        left: 70%;
+    }
+    .fonctionnement_3{
+        left: 69%;
+        top: 88%;
+        font-size: 20px;
+    }
+    .restaurants{
+        margin-top: 20%;
+    }
+    .restaurants h2{
+        padding-top: 5%;
+    }
+    .restaurants--1-2, .restaurants--3-4{
+        flex-direction: row;
+        padding-left: 4%;
+        padding-right: 4%;
+        justify-content: space-between;
+    }
+    .restaurants a{
+        width: 48%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+    footer ol{
+        display: flex;
+        font-size: 18px;
+    }
+    footer li{
+        padding-left: 10px;
+    }
+    .petit-logo{
+      margin-right: 20px;
+      margin-left: 20px;
+      padding-bottom: 10px;   
+    }
+   
+ }
+ 
+ 
+ /* Media Queries Tablette */
+ 
+ 
+ @media screen and (min-width: 769px) {
+    body{
+        min-width: 769px;
+        max-width: 991px;
+    }
+    .logo img{
+        max-width: 180px;
+    }
+    .fonctionnement h2{
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+    .fonctionnement_list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .fonctionnement_step-1, .fonctionnement_step-2, .fonctionnement_step-3{
+    position: absolute;
+    width: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 18px;
+    }
+    .fonctionnement_step-1{
+        top: 58%;
+        left: 7%;
+    }
+    .fonctionnement_1{
+        left: 6%;
+        top: 88%;
+        font-size: 20px;
+    }
+    .fonctionnement_step-2{
+        top: 58%;
+        left: 39%;
+    }
+    .fonctionnement_2{
+        left: 38%;
+        top: 88%;
+        font-size: 20px;
+    }
+    .fonctionnement_step-3{
+        top: 58%;
+        left: 70%;
+    }
+    .fonctionnement_3{
+        left: 69%;
+        top: 88%;
+        font-size: 20px;
+    }
+    .restaurants{
+        margin-top: 20%;
+    }
+    .restaurants h2{
+        padding-top: 5%;
+    }
+    .restaurants--1-2, .restaurants--3-4{
+        flex-direction: row;
+        padding-left: 4%;
+        padding-right: 4%;
+        justify-content: space-between;
+    }
+    .restaurants a{
+        width: 48%;
+    }
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: end;
+    }
+    footer ol{
+        display: flex;
+        font-size: 18px;
+    }
+    footer li{
+        padding-left: 10px;
+    }
+    .petit-logo{
+      margin-right: 20px;
+      margin-left: 20px;
+      padding-bottom: 10px;   
+    }
+ }
+ 
+

@@ -151,8 +151,6 @@ h2{
     display: flex;
     flex-direction: column;
     width: 80%;
-    text-overflow: ellipsis;
-    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -162,6 +160,12 @@ h2{
     margin: 0;
     padding-left: 5%;
     padding-bottom: 3%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.menu h3{
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .prix{
     font-size: 15px;
@@ -245,9 +249,8 @@ button {
     color: white;
     text-decoration: none;
     text-align: center;
-    border-style: solid;
-    border-color: #9356DC;
-    background-color: #9356DC;
+    border-style: none;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
     border-radius: 80px;
     padding: 16px;
     padding-left: 40px;
@@ -255,6 +258,15 @@ button {
     margin-top: 27px;
     margin-bottom: 57px;
     box-shadow: 5px 5px 5px #d9d9d9;
+    animation-direction: alternate;
+    transition: opacity 1s linear;
+    opacity: 1;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.6;
+    transition: opacity 1s linear;
+    box-shadow: 10px 10px 10px #d9d9d9;
 }
 
 footer{

@@ -1,4 +1,6 @@
- .cs-loader {
+/* Loader ouverture page*/ 
+
+.cs-loader {
   position: absolute;
   top: 0;
   left: 0;
@@ -91,8 +93,6 @@
   animation: lol 4s 500ms ease-in-out;
 }
  
- 
- 
 .wrap{
     animation-name: open;
     animation-duration: 6s;
@@ -112,7 +112,7 @@
     }
 }
 
-
+/* Fin loader */
 
 body{
     max-width: 768px;
@@ -190,6 +190,7 @@ nav{
 .bouton:hover{
     opacity: 0.6;
     transition: opacity 1s linear;
+    box-shadow: 10px 10px 10px #d9d9d9;
 }
 
 .fonctionnement{

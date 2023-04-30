@@ -393,6 +393,14 @@ footer li{
     padding-top: 2%;
 }
 
+footer a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
 
 /* Media Queries Desktop */
 
